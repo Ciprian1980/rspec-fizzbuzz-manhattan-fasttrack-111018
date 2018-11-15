@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 require_relative './spec_helper.rb'
- 
+def fizzbuzz  
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
