@@ -195,9 +195,7 @@ describe "fizzbuzz" do
     fizz_5 = fizzbuzz(5)
 
     expect(fizz_5).to eq("Buzz")
-  end
-  it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
-    fizz_15 = fizzbuzz(15)
+  fizz_15 = fizzbuzz(15)
 
     expect(fizz_15).to eq("FizzBuzz")
   end
@@ -206,7 +204,9 @@ describe "fizzbuzz" do
 
     expect(fizz_4).to eq(nil)
   end
-end
+endend
+  it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
+    
 ```
 
 Remember, your goal here is not to be able to write that test suite, yet. Your goal, rather, is to understand what that test suite is describing about your code, about your solution. When I read that, I think the following things:
